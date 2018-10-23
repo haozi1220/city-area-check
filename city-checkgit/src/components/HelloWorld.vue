@@ -14,7 +14,7 @@
 				<div class="city_item" v-for="cityItem in cityItemData">
 					<div v-if="cityItem.dt" class="left">{{cityItem.dt}}</div>
 					<div class="name">
-						<span v-for="cityName in cityItem.dd">{{cityName.cityName}}</span>
+						<span v-for="cityName in cityItem.dd" @click="inputCityName(cityName)">{{cityName.cityName}}</span>
 					</div>
 				</div>
 			</div>
@@ -33,7 +33,7 @@ export default {
 		cityInput:null
     }
   },
-  created () {
+  mounted () {
 	  let url = this.HOST ;
 	  this.$axios.get(url,{
 		  params:{
@@ -44,6 +44,7 @@ export default {
 	  .then(res => {
 		  let getCityData = res.data[267040].value.cityArray;
 		  this.cityData = getCityData;
+		  this.cityItemData = this.cityData[0].tabdata;
 	  }).catch(error => {
 		  console.log(error);
 	  })
@@ -56,6 +57,9 @@ export default {
 			    that.cityItemData = item.tabdata;
 			  };
 		  })
+	  },
+	  inputCityName:function(e){
+			this.cityInput = e.cityName;
 	  }
   }
 }
