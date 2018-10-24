@@ -81,7 +81,7 @@ a {
 	width: 430px;
 	margin: 0 auto;
 }
-.city_item { 
+.city_item {
 	text-align: left;
 	line-height: 40px;
 }
