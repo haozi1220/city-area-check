@@ -4,7 +4,7 @@
     <div class="city_check_wrapp">
 		<span>请输入城市</span><input type="text" v-model="cityInput">
 	</div>
-	<div class="city_wrapp">
+	<div class="city_wrapp" v-if="!isNewVal">
 		<h6>热门城市（支持汉子/拼音/英文字母）</h6>
 		<div class="citi_list">
 			<ul class="city_title">
@@ -20,6 +20,9 @@
 			</div>
 		</div>
 	</div>
+    <div class="city_list_wrap" v-if="isNewVal">
+        我是诚实列表
+    </div>
   </div>
 </template>
 
@@ -30,10 +33,11 @@ export default {
     return {
 		cityData: null,
 		cityItemData:null,
-		cityInput:null
+		cityInput:null,
+        isNewVal:false
     }
   },
-  mounted () {
+  created () {
 	  let url = '../../static/data/city.js';
 	  this.$axios.get(url)
 	  .then(res => {
@@ -42,7 +46,27 @@ export default {
 		  this.cityItemData = this.cityData[0].tabdata;
 	  }).catch(error => {
 		  console.log(error);
-	  })
+	  });
+      this.$watch('cityInput',(newVal) => {
+            if(newVal.length&&newVal.length > 0){
+                var re = /[A-Za-z]+$/;
+                var re2 = /^[/\u4e00-\u9fa5]$/;
+
+                if(re.test(newVal)){
+                    let lowerVal = newVal.toLowerCase();
+                    for(var i = 1; i < this.cityData.length; i ++){
+                        this.cityData[i].tabdata.forEach(function(item){
+                            console.log(item.dd);
+                        });
+                    }
+                }else if(re2.test(newVal)){
+                    console.log('我是中文')
+                }
+                this.isNewVal = true;
+            }else {
+                this.isNewVal = false;
+            }
+      })
   },
   methods:{
 	  getCityList:function(val) {

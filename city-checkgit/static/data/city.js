@@ -361,22 +361,22 @@
                 {
                   "cityName": "广州",
                   "cityCode": "CAN",
-                  "pinyin": ""
+                  "pinyin": "guangzhou"
                 },
                 {
                   "cityName": "广元",
                   "cityCode": "GYS",
-                  "pinyin": "1"
+                  "pinyin": "guangyuan"
                 },
                 {
                   "cityName": "格尔木",
                   "cityCode": "GOQ",
-                  "pinyin": "1"
+                  "pinyin": "geermu"
                 },
                 {
                   "cityName": "固原",
                   "cityCode": "GYU",
-                  "pinyin": "1"
+                  "pinyin": "guyuan"
                 }
               ],
               "pinyin": "1"
@@ -392,67 +392,67 @@
                 {
                   "cityName": "哈密",
                   "cityCode": "HMI",
-                  "pinyin": "1"
+                  "pinyin": "hami"
                 },
                 {
                   "cityName": "黑河",
                   "cityCode": "HEK",
-                  "pinyin": "1"
+                  "pinyin": "heihe"
                 },
                 {
                   "cityName": "海拉尔",
                   "cityCode": "HLD",
-                  "pinyin": "1"
+                  "pinyin": "halaer"
                 },
                 {
                   "cityName": "哈尔滨",
                   "cityCode": "HRB",
-                  "pinyin": "1"
+                  "pinyin": "haerbin"
                 },
                 {
                   "cityName": "海口",
                   "cityCode": "HAK",
-                  "pinyin": "1"
+                  "pinyin": "haikou"
                 },
                 {
                   "cityName": "黄山",
                   "cityCode": "TXN",
-                  "pinyin": "1"
+                  "pinyin": "huangshan"
                 },
                 {
                   "cityName": "杭州",
                   "cityCode": "HGH",
-                  "pinyin": "1"
+                  "pinyin": "hangzhou"
                 },
                 {
                   "cityName": "邯郸",
                   "cityCode": "HDG",
-                  "pinyin": "1"
+                  "pinyin": "handan"
                 },
                 {
                   "cityName": "合肥",
                   "cityCode": "HFE",
-                  "pinyin": "1"
+                  "pinyin": "hefei"
                 },
                 {
                   "cityName": "汉中",
                   "cityCode": "HZG",
-                  "pinyin": "1"
+                  "pinyin": "hanzhong"
                 },
                 {
                   "cityName": "和田",
                   "cityCode": "HTN",
-                  "pinyin": "1"
+                  "pinyin": "hetian"
                 },
                 {
                   "cityName": "淮安",
                   "cityCode": "HIA",
-                  "pinyin": "1"
+                  "pinyin": "huaian"
                 },
                 {
                   "cityName": "河池",
                   "cityCode": "HCJ",
-                  "pinyin": "1"
+                  "pinyin": "hechi"
                 }
               ],
               "pinyin": "1"
@@ -463,57 +463,57 @@
                 {
                   "cityName": "晋江",
                   "cityCode": "JJN",
-                  "pinyin": "1"
+                  "pinyin": "jinjiang"
                 },
                 {
                   "cityName": "九寨沟",
                   "cityCode": "JZH",
-                  "pinyin": "1"
+                  "pinyin": "jiuzhaigou"
                 },
                 {
                   "cityName": "锦州",
                   "cityCode": "JNZ",
-                  "pinyin": "1"
+                  "pinyin": "jinzhou"
                 },
                 {
                   "cityName": "景德镇",
                   "cityCode": "JDZ",
-                  "pinyin": "1"
+                  "pinyin": "jingdezhen"
                 },
                 {
                   "cityName": "嘉峪关",
                   "cityCode": "JGN",
-                  "pinyin": "1"
+                  "pinyin": "jiayuguan"
                 },
                 {
                   "cityName": "井冈山",
                   "cityCode": "JGS",
-                  "pinyin": "1"
+                  "pinyin": "jinggangshan"
                 },
                 {
                   "cityName": "济宁",
                   "cityCode": "JNG",
-                  "pinyin": "1"
+                  "pinyin": "jining"
                 },
                 {
                   "cityName": "九江",
                   "cityCode": "JIU",
-                  "pinyin": "1"
+                  "pinyin": "jiujiang"
                 },
                 {
                   "cityName": "佳木斯",
                   "cityCode": "JMU",
-                  "pinyin": "1"
+                  "pinyin": "jiamusi"
                 },
                 {
                   "cityName": "济南",
                   "cityCode": "TNA",
-                  "pinyin": "1"
+                  "pinyin": "jinan"
                 },
                 {
                   "cityName": "揭阳",
                   "cityCode": "SWA",
-                  "pinyin": "1"
+                  "pinyin": "jieyang"
                 }
               ],
               "pinyin": "1"
@@ -529,32 +529,32 @@
                 {
                   "cityName": "喀什",
                   "cityCode": "KHG",
-                  "pinyin": "1"
+                  "pinyin": "kashi"
                 },
                 {
                   "cityName": "昆明",
                   "cityCode": "KMG",
-                  "pinyin": "1"
+                  "pinyin": "kunming"
                 },
                 {
                   "cityName": "康定",
                   "cityCode": "KGT",
-                  "pinyin": "1"
+                  "pinyin": "kangding"
                 },
                 {
                   "cityName": "克拉玛依",
                   "cityCode": "KRY",
-                  "pinyin": "1"
+                  "pinyin": "kelamayi"
                 },
                 {
                   "cityName": "库尔勒",
                   "cityCode": "KRL",
-                  "pinyin": "1"
+                  "pinyin": "kuerle"
                 },
                 {
                   "cityName": "库车",
                   "cityCode": "KCA",
-                  "pinyin": "1"
+                  "pinyin": "kuche"
                 }
               ],
               "pinyin": "1"
@@ -565,72 +565,72 @@
                 {
                   "cityName": "兰州",
                   "cityCode": "LHW",
-                  "pinyin": "1"
+                  "pinyin": "lanzhou"
                 },
                 {
                   "cityName": "洛阳",
                   "cityCode": "LYA",
-                  "pinyin": "1"
+                  "pinyin": "luoyang"
                 },
                 {
                   "cityName": "丽江",
                   "cityCode": "LJG",
-                  "pinyin": "1"
+                  "pinyin": "lijiang"
                 },
                 {
                   "cityName": "拉萨",
                   "cityCode": "LXA",
-                  "pinyin": "1"
+                  "pinyin": "lasa"
                 },
                 {
                   "cityName": "黎平",
                   "cityCode": "HZH",
-                  "pinyin": "1"
+                  "pinyin": "liping"
                 },
                 {
                   "cityName": "连城",
                   "cityCode": "LCX",
-                  "pinyin": "1"
+                  "pinyin": "liancheng"
                 },
                 {
                   "cityName": "连云港",
                   "cityCode": "LYG",
-                  "pinyin": "1"
+                  "pinyin": "lianyungang"
                 },
                 {
                   "cityName": "临沧",
                   "cityCode": "LNJ",
-                  "pinyin": "1"
+                  "pinyin": "lincang"
                 },
                 {
                   "cityName": "临汾",
                   "cityCode": "LFQ",
-                  "pinyin": "1"
+                  "pinyin": "linfen"
                 },
                 {
                   "cityName": "临沂",
                   "cityCode": "LYI",
-                  "pinyin": "1"
+                  "pinyin": "linyi"
                 },
                 {
                   "cityName": "林芝",
                   "cityCode": "LZY",
-                  "pinyin": "1"
+                  "pinyin": "linzhi"
                 },
                 {
                   "cityName": "六盘水",
                   "cityCode": "LPF",
-                  "pinyin": "1"
+                  "pinyin": "liupanshui"
                 },
                 {
                   "cityName": "柳州",
                   "cityCode": "LZH",
-                  "pinyin": "1"
+                  "pinyin": "liuzhou"
                 },
                 {
                   "cityName": "泸州",
                   "cityCode": "LZO",
-                  "pinyin": "1"
+                  "pinyin": "luzhou"
                 }
               ],
               "pinyin": "1"
@@ -641,32 +641,32 @@
                 {
                   "cityName": "牡丹江",
                   "cityCode": "MDG",
-                  "pinyin": "1"
+                  "pinyin": "mudanjiang"
                 },
                 {
                   "cityName": "芒市",
                   "cityCode": "LUM",
-                  "pinyin": "1"
+                  "pinyin": "mangshi"
                 },
                 {
                   "cityName": "满洲里",
                   "cityCode": "NZH",
-                  "pinyin": "1"
+                  "pinyin": "manzhouli"
                 },
                 {
                   "cityName": "绵阳",
                   "cityCode": "MIG",
-                  "pinyin": "1"
+                  "pinyin": "mianyang"
                 },
                 {
                   "cityName": "梅县",
                   "cityCode": "MXZ",
-                  "pinyin": "1"
+                  "pinyin": "meixian"
                 },
                 {
                   "cityName": "漠河",
                   "cityCode": "OHE",
-                  "pinyin": "1"
+                  "pinyin": "mohe"
                 }
               ],
               "pinyin": "1"
@@ -677,42 +677,42 @@
                 {
                   "cityName": "南京",
                   "cityCode": "NKG",
-                  "pinyin": "1"
+                  "pinyin": "nanjing"
                 },
                 {
                   "cityName": "南充",
                   "cityCode": "NAO",
-                  "pinyin": "1"
+                  "pinyin": "nanchong"
                 },
                 {
                   "cityName": "南宁",
                   "cityCode": "NNG",
-                  "pinyin": "1"
+                  "pinyin": "nanning"
                 },
                 {
                   "cityName": "南阳",
                   "cityCode": "NNY",
-                  "pinyin": "1"
+                  "pinyin": "nanyang"
                 },
                 {
                   "cityName": "南通",
                   "cityCode": "NTG",
-                  "pinyin": "1"
+                  "pinyin": "nantong"
                 },
                 {
                   "cityName": "那拉提",
                   "cityCode": "NLT",
-                  "pinyin": "1"
+                  "pinyin": "nalati"
                 },
                 {
                   "cityName": "南昌",
                   "cityCode": "KHN",
-                  "pinyin": "1"
+                  "pinyin": "nanchang"
                 },
                 {
                   "cityName": "宁波",
                   "cityCode": "NGB",
-                  "pinyin": "1"
+                  "pinyin": "ningbo"
                 }
               ],
               "pinyin": "1"
@@ -723,7 +723,7 @@
                 {
                   "cityName": "攀枝花",
                   "cityCode": "PZI",
-                  "pinyin": "1"
+                  "pinyin": "panzhihua"
                 }
               ],
               "pinyin": "1"
@@ -739,27 +739,27 @@
                 {
                   "cityName": "衢州",
                   "cityCode": "JUZ",
-                  "pinyin": "1"
+                  "pinyin": "quzhou"
                 },
                 {
                   "cityName": "秦皇岛",
                   "cityCode": "SHP",
-                  "pinyin": "1"
+                  "pinyin": "qinhuangdao"
                 },
                 {
                   "cityName": "庆阳",
                   "cityCode": "IQN",
-                  "pinyin": "1"
+                  "pinyin": "qingyang"
                 },
                 {
                   "cityName": "齐齐哈尔",
                   "cityCode": "NDG",
-                  "pinyin": "1"
+                  "pinyin": "qiqihaer"
                 },
                 {
                   "cityName": "青岛",
                   "cityCode": "TAO",
-                  "pinyin": "1"
+                  "pinyin": "qingdao"
                 }
               ],
               "pinyin": "1"
@@ -770,42 +770,42 @@
                 {
                   "cityName": "深圳",
                   "cityCode": "SZX",
-                  "pinyin": "1"
+                  "pinyin": "shenzhen"
                 },
                 {
                   "cityName": "石家庄",
                   "cityCode": "SJW",
-                  "pinyin": "1"
+                  "pinyin": "shijiazhuang"
                 },
                 {
                   "cityName": "三亚",
                   "cityCode": "SYX",
-                  "pinyin": "1"
+                  "pinyin": "sanya"
                 },
                 {
                   "cityName": "沈阳",
                   "cityCode": "SHE",
-                  "pinyin": "1"
+                  "pinyin": "shenyang"
                 },
                 {
                   "cityName": "上海",
                   "cityCode": "SHA",
-                  "pinyin": "1"
+                  "pinyin": "shanghai"
                 },
                 {
                   "cityName": "思茅",
                   "cityCode": "SYM",
-                  "pinyin": "1"
+                  "pinyin": "simao"
                 },
                 {
                   "cityName": "神农架",
                   "cityCode": "HPG",
-                  "pinyin": "1"
+                  "pinyin": "shennongjia"
                 },
                 {
                   "cityName": "邵阳",
                   "cityCode": "WGN",
-                  "pinyin": "1"
+                  "pinyin": "shaoyang"
                 }
               ],
               "pinyin": "1"
@@ -816,42 +816,42 @@
                 {
                   "cityName": "铜仁",
                   "cityCode": "TEN",
-                  "pinyin": "1"
+                  "pinyin": "tongren"
                 },
                 {
                   "cityName": "塔城",
                   "cityCode": "TCG",
-                  "pinyin": "1"
+                  "pinyin": "tacheng"
                 },
                 {
                   "cityName": "腾冲",
                   "cityCode": "TCZ",
-                  "pinyin": "1"
+                  "pinyin": "tengchong"
                 },
                 {
                   "cityName": "台州",
                   "cityCode": "HYN",
-                  "pinyin": "1"
+                  "pinyin": "taizhou"
                 },
                 {
                   "cityName": "泰州",
                   "cityCode": "YTY",
-                  "pinyin": "1"
+                  "pinyin": "taizhou"
                 },
                 {
                   "cityName": "天津",
                   "cityCode": "TSN",
-                  "pinyin": "1"
+                  "pinyin": "tianjin"
                 },
                 {
                   "cityName": "通辽",
                   "cityCode": "TGO",
-                  "pinyin": "1"
+                  "pinyin": "tongliao"
                 },
                 {
                   "cityName": "太原",
                   "cityCode": "TYN",
-                  "pinyin": "1"
+                  "pinyin": "taiyuan"
                 }
               ],
               "pinyin": "1"
@@ -862,62 +862,62 @@
                 {
                   "cityName": "威海",
                   "cityCode": "WEH",
-                  "pinyin": "1"
+                  "pinyin": "weihai"
                 },
                 {
                   "cityName": "武汉",
                   "cityCode": "WUH",
-                  "pinyin": "1"
+                  "pinyin": "wuhan"
                 },
                 {
                   "cityName": "梧州",
                   "cityCode": "WUZ",
-                  "pinyin": "1"
+                  "pinyin": "wuzhou"
                 },
                 {
                   "cityName": "文山",
                   "cityCode": "WNH",
-                  "pinyin": "1"
+                  "pinyin": "wenshan"
                 },
                 {
                   "cityName": "无锡",
                   "cityCode": "WUX",
-                  "pinyin": "1"
+                  "pinyin": "wuxi"
                 },
                 {
                   "cityName": "潍坊",
                   "cityCode": "WEF",
-                  "pinyin": "1"
+                  "pinyin": "weifang"
                 },
                 {
                   "cityName": "武夷山",
                   "cityCode": "WUS",
-                  "pinyin": "1"
+                  "pinyin": "wuyishan"
                 },
                 {
                   "cityName": "乌兰浩特",
                   "cityCode": "HLH",
-                  "pinyin": "1"
+                  "pinyin": "wulanhaote"
                 },
                 {
                   "cityName": "温州",
                   "cityCode": "WNZ",
-                  "pinyin": "1"
+                  "pinyin": "wenzhou"
                 },
                 {
                   "cityName": "乌鲁木齐",
                   "cityCode": "URC",
-                  "pinyin": "1"
+                  "pinyin": "wulumuqi"
                 },
                 {
                   "cityName": "万州",
                   "cityCode": "WXN",
-                  "pinyin": "1"
+                  "pinyin": "wanzhou"
                 },
                 {
                   "cityName": "乌海",
                   "cityCode": "WUA",
-                  "pinyin": "1"
+                  "pinyin": "wuhai"
                 }
               ],
               "pinyin": "1"
@@ -933,52 +933,52 @@
                 {
                   "cityName": "兴义",
                   "cityCode": "ACX",
-                  "pinyin": "1"
+                  "pinyin": "xingyi"
                 },
                 {
                   "cityName": "西昌",
                   "cityCode": "XIC",
-                  "pinyin": "1"
+                  "pinyin": "xichang"
                 },
                 {
                   "cityName": "厦门",
                   "cityCode": "XMN",
-                  "pinyin": "1"
+                  "pinyin": "xiamen"
                 },
                 {
                   "cityName": "西安",
                   "cityCode": "SIA",
-                  "pinyin": "1"
+                  "pinyin": "xian"
                 },
                 {
                   "cityName": "襄阳",
                   "cityCode": "XFN",
-                  "pinyin": "1"
+                  "pinyin": "xiangyang"
                 },
                 {
                   "cityName": "西宁",
                   "cityCode": "XNN",
-                  "pinyin": "1"
+                  "pinyin": "xining"
                 },
                 {
                   "cityName": "锡林浩特",
                   "cityCode": "XIL",
-                  "pinyin": "1"
+                  "pinyin": "xilinhaote"
                 },
                 {
                   "cityName": "西双版纳",
                   "cityCode": "JHG",
-                  "pinyin": "1"
+                  "pinyin": "xishuangbanna"
                 },
                 {
                   "cityName": "忻州",
                   "cityCode": "WUT",
-                  "pinyin": "1"
+                  "pinyin": "xinzhou"
                 },
                 {
                   "cityName": "徐州",
                   "cityCode": "XUZ",
-                  "pinyin": "1"
+                  "pinyin": "xuzhou"
                 }
               ]
             },
@@ -988,72 +988,72 @@
                 {
                   "cityName": "义乌",
                   "cityCode": "YIW",
-                  "pinyin": "1"
+                  "pinyin": "yiwu"
                 },
                 {
                   "cityName": "永州",
                   "cityCode": "LLF",
-                  "pinyin": "1"
+                  "pinyin": "yongzhou"
                 },
                 {
                   "cityName": "榆林",
                   "cityCode": "UYN",
-                  "pinyin": "1"
+                  "pinyin": "yulin"
                 },
                 {
                   "cityName": "延安",
                   "cityCode": "ENY",
-                  "pinyin": "1"
+                  "pinyin": "yanan"
                 },
                 {
                   "cityName": "运城",
                   "cityCode": "YCU",
-                  "pinyin": "1"
+                  "pinyin": "yuncheng"
                 },
                 {
                   "cityName": "烟台",
                   "cityCode": "YNT",
-                  "pinyin": "1"
+                  "pinyin": "yantai"
                 },
                 {
                   "cityName": "银川",
                   "cityCode": "INC",
-                  "pinyin": "1"
+                  "pinyin": "yinchuan"
                 },
                 {
                   "cityName": "宜昌",
                   "cityCode": "YIH",
-                  "pinyin": "1"
+                  "pinyin": "yichang"
                 },
                 {
                   "cityName": "宜宾",
                   "cityCode": "YBP",
-                  "pinyin": "1"
+                  "pinyin": "yibin"
                 },
                 {
                   "cityName": "盐城",
                   "cityCode": "YNZ",
-                  "pinyin": "1"
+                  "pinyin": "yancheng"
                 },
                 {
                   "cityName": "延吉",
                   "cityCode": "YNJ",
-                  "pinyin": "1"
+                  "pinyin": "yanji"
                 },
                 {
                   "cityName": "玉树",
                   "cityCode": "YUS",
-                  "pinyin": "1"
+                  "pinyin": "yushu"
                 },
                 {
                   "cityName": "伊宁",
                   "cityCode": "YIN",
-                  "pinyin": "1"
+                  "pinyin": "yining"
                 },
                 {
                   "cityName": "扬州",
                   "cityCode": "YTY",
-                  "pinyin": "1"
+                  "pinyin": "yangzhou"
                 }
               ]
             },
@@ -1062,43 +1062,53 @@
               "dd": [
                 {
                   "cityName": "珠海",
-                  "cityCode": "ZUH"
+                  "cityCode": "ZUH",
+                  "pinyin": "zhuhai"
                 },
                 {
                   "cityName": "昭通",
-                  "cityCode": "ZAT"
+                  "cityCode": "ZAT",
+                  "pinyin": "zhaotong"
                 },
                 {
                   "cityName": "张家界",
-                  "cityCode": "DYG"
+                  "cityCode": "DYG",
+                  "pinyin": "zhangjiajie"
                 },
                 {
                   "cityName": "舟山",
-                  "cityCode": "HSN"
+                  "cityCode": "HSN",
+                  "pinyin": "zhoushan"
                 },
                 {
                   "cityName": "郑州",
-                  "cityCode": "CGO"
+                  "cityCode": "CGO",
+                  "pinyin": "zhengzhou"
                 },
                 {
                   "cityName": "中卫",
-                  "cityCode": "ZHY"
+                  "cityCode": "ZHY",
+                  "pinyin": "zhongwei"
                 },
                 {
                   "cityName": "芷江",
-                  "cityCode": "HJJ"
+                  "cityCode": "HJJ",
+                  "pinyin": "zhijiang"
                 },
                 {
                   "cityName": "湛江",
-                  "cityCode": "ZHA"
+                  "cityCode": "ZHA",
+                  "pinyin": "zhanjiang"
                 },
                 {
                   "cityName": "遵义新舟",
-                  "cityCode": "ZYI"
+                  "cityCode": "ZYI",
+                  "pinyin": "zunyixinzhou"
                 },
                 {
                   "cityName": "遵义茅台",
-                  "cityCode": "WMT"
+                  "cityCode": "WMT",
+                  "pinyin": "zunyimaotai"
                 }
               ]
             }
