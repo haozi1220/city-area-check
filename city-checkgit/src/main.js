@@ -4,13 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Axios from 'axios'
-
+import pinyin from 'js-pinyin'
 Vue.config.productionTip = false;
 
 Vue.prototype.$axios = Axios;
 
 Vue.prototype.HOST = '/api';
-
+Vue.prototype.$pinyin = pinyin;
+pinyin.setOptions({checkPolyphone:false,charCase:0})
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

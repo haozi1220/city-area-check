@@ -27,6 +27,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'HelloWorld',
   data () {
@@ -38,35 +39,37 @@ export default {
     }
   },
   created () {
-	  let url = '../../static/data/city.js';
-	  this.$axios.get(url)
-	  .then(res => {
-		  let getCityData = res.data[267040].value.cityArray;
-		  this.cityData = getCityData;
-		  this.cityItemData = this.cityData[0].tabdata;
-	  }).catch(error => {
-		  console.log(error);
-	  });
-      this.$watch('cityInput',(newVal) => {
-            if(newVal.length&&newVal.length > 0){
-                var re = /[A-Za-z]+$/;
-                var re2 = /^[/\u4e00-\u9fa5]$/;
+    // console.log(this.$pinyin.getFullChars('管理员'))  提取拼音并且首字母大写
+    // console.log(this.$pinyin.getCamelChars('管理员'))  提取首字母并大写
+    // console.log(this.$pinyin.getCamelChars('1234'))
+    // console.log(this.$pinyin.getCamelChars('english'))
+	  let url = '../../static/data/city.json';
+      this.$axios.get(url)
+      .then(res => {
+          let getCityData = res.data[267040].value.cityArray;
+          this.cityData = getCityData;
+          this.cityItemData = this.cityData[0].tabdata;
+      }).catch(error => {
+          console.log(error);
+      });
+  },
+  watch:{
+    cityInput: function(newVal){
+        let newCityData = this.cityData.slice(1);
+        if(newVal.length&&newVal.length > 0){
+            var re = /[A-Za-z]+$/;
+            var re2 = /^[/\u4e00-\u9fa5]$/;
 
-                if(re.test(newVal)){
-                    let lowerVal = newVal.toLowerCase();
-                    for(var i = 1; i < this.cityData.length; i ++){
-                        this.cityData[i].tabdata.forEach(function(item){
-                            console.log(item.dd);
-                        });
-                    }
-                }else if(re2.test(newVal)){
-                    console.log('我是中文')
-                }
-                this.isNewVal = true;
-            }else {
-                this.isNewVal = false;
+            if(re.test(newVal)){
+               // do nothing
+            }else if(re2.test(newVal)){
+                console.log(newCityData)
             }
-      })
+            this.isNewVal = true;
+        }else {
+            this.isNewVal = false;
+        }
+    }
   },
   methods:{
 	  getCityList:function(val) {
@@ -79,7 +82,7 @@ export default {
 	  },
 	  inputCityName:function(e){
 			this.cityInput = e.cityName;
-	  }
+	  },
   }
 }
 </script>
