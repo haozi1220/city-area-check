@@ -32,13 +32,15 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-		cityData: null,
-		cityItemData:null,
-		cityInput:null,
-        isNewVal:false
+  		cityData: null,
+  		cityItemData:null,
+  		cityInput:null,
+      isNewVal:false,
+      cityList:[]
     }
   },
   created () {
+    let that = this;
     // console.log(this.$pinyin.getFullChars('管理员'))  提取拼音并且首字母大写
     // console.log(this.$pinyin.getCamelChars('管理员'))  提取首字母并大写
     // console.log(this.$pinyin.getCamelChars('1234'))
@@ -49,21 +51,34 @@ export default {
           let getCityData = res.data[267040].value.cityArray;
           this.cityData = getCityData;
           this.cityItemData = this.cityData[0].tabdata;
+          let newCityData = this.cityData.slice(1);
+          newCityData.forEach(function(item){
+            item.tabdata.forEach(function(item){
+              item.dd.forEach(function(item){
+                that.cityList.push(item.cityName);
+              })
+            })
+          })
       }).catch(error => {
           console.log(error);
       });
   },
   watch:{
-    cityInput: function(newVal){
-        let newCityData = this.cityData.slice(1);
+    cityInput: function(newVal,oldVal){
         if(newVal.length&&newVal.length > 0){
             var re = /[A-Za-z]+$/;
             var re2 = /^[/\u4e00-\u9fa5]$/;
 
             if(re.test(newVal)){
                // do nothing
-            }else if(re2.test(newVal)){
-                console.log(newCityData)
+            }else if(re2.test(newVal) || newVal != oldVal){
+              let citylist = [];
+              for(let a = 0; a < this.cityList.length; a++){
+                if(this.cityList[a].indexOf(newVal)){
+                  cityList.push(this.cityList[a]);
+                }
+              }
+              console.log(cityList);
             }
             this.isNewVal = true;
         }else {
